@@ -108,7 +108,7 @@ class EventView{
         this.eventAdd = document.querySelector(".event-list__add-btn");
         this.eventList = document.querySelector(".events-list");
         this.eventTitle = document.querySelector(".event__name");
-        
+
         // console.log(this.eventTitle);
         this.eventStartDate = document.querySelector(".event__start-date");
         this.eventEndDate  = document.querySelector(".event__end-date");
@@ -202,7 +202,6 @@ class EventController{
   
         if(e.target.classList.contains("event_btn-edit")){
           const domID = e.target.parentNode.parentNode.parentNode.getAttribute("id");
-          console.log(domID);
           const inputName = this.view.eventTitle.value;
           
           const inputStartDate = this.view.eventStartDate.value;
