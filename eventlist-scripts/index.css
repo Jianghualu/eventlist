@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 63%;
+    /* border: 1px solid black; */
+    background-color:antiquewhite;
+    /* font-size: 1.6rem; */
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.event-list-app{
+    /* border: 1px solid black; */
+    text-align: center;
+    /* width: 800px; */
+    width: 60%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.event-list__tittle{
+    /* border: 1px solid black; */
+    margin-bottom: 2rem;
+}
+
+.event-list-app__add{
+    /* border: 1px solid black; */
+    padding: 2rem;
+    
+}
+.event-list__add-btn {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 15%;
+    padding: 1rem;
+    background-color: #008cba;
+    color: white;
+    border: none;
+
+}
+
+table{
+    border: 1px solid black;
+    align-items: center;
+    margin:auto;
+    padding: 1rem;
+    
+}
+
+thead{
+    /* border: 1px solid black; */
+    /* margin-bottom: 5rem; */
+
+}
+tbody{
+    /* border: 1px solid black; */
+}
+tr{
+    /* border: 1px solid black; */
+}
+th{
+    /* border: 1px solid black; */
+    /* margin: 5rem; */
+}
+td{
+    /* border: 1px solid black; */
+}
+.event{
+    border: 1px solid black;
+    margin: 5rem;
+}
+
+
+
+/* <div class="event-list-app">
+        <h1 class="event-list__tittle">Event List App</h1>
+         <div class="event-list-app__add">
+            <button class="event-list__add-btn">Add New Event</button>
+        </div>
+        <table class="event-list-app__table">
+            <thead class="events-list-app__table-title">
+                <tr>
+                    <th>Event</th>
+                    <th>Start</th>
+                    <th>End</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="events-list">
+
+                <tr class="event">
+                    <td><input type="text" class="event__name"/></td>
+                    <td><input type="date" class="event__start-date"/></td>
+                    <td><input type="date" class="event__end-date"/></td>
+                    <td>
+                        <div class="event__action">
+                            <button class="event_btn-edit">Edit</button> 
+                            <button class="event_btn-edit">DELETE</button>
+                        </div>
+                    </td> */
+
+       
